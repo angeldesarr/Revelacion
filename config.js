@@ -100,7 +100,7 @@ const CONFIG_BODA = {
     mensaje: "¡Tu presencia es muy importante para nosotros! Confirma tu asistencia para que podamos contemplarte en esta celebración tan especial. 🐰",
     botonTexto: "Enviar confirmación ✦",
     placeholderNombre: "Nombre y apellido",
-    radioSi: "🎉 ¡Muchas gracias por invitarnos! Nos vemos el 29 de Agosto para celebrar juntos la llegada del bebé. 🐰✨",
+    radioSi: "🎉 ¡Muchas gracias por invitarnos! Nos vemos el 29 de Agosto para celebrar juntos la revelacion del bebé. 🐰✨",
     radioNo: "💔 Lamento no poder asistir. Pero los llevaremos en el corazón durante su celebración! 🐰",
     agradecimiento: "¡Gracias por confirmar"
   },
