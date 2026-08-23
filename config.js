@@ -39,7 +39,7 @@ const CONFIG_BODA = {
     hora: "16:00 hrs",
     lugar: "Salón de Eventos",
     direccion: "Av. Reforma número 62 esquina calle 6 pte Candelaria Purificación Tepeaca, Puebla.",
-    mapaUrl: "https://maps.app.goo.gl/a6dwZEnBfAfqpGDN9?g_st=aw",
+    mapaUrl: "https://maps.app.goo.gl/GDNP7v1NCm3QHeQf6?g_st=ac",
     imagen: "./assets/salon1.jpg"
   },
   
