@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Baby Shower · Maldonado Romero</title>
+  <!-- ============================================ -->
+<!-- PREVISUALIZACIÓN PARA WHATSAPP               -->
+<!-- ============================================ -->
+
+<meta property="og:title" content="Baby Shower · Maldonado Romero" />
+<meta property="og:description" content="estamos emocionados por la llegada nuestro bebé. ¡Acompáñanos a descubrir si es niño o niña! 🐰" />
+<meta property="og:image" content="sobre.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome (íconos profesionales) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- FONDO DINÁMICO CON NUBES / ÍCONOS -->
+<div class="floating-background" id="floatingBackground"></div>
+  <audio id="weddingAudioCinema" loop preload="auto"></audio>
+
+  <!-- ========================================================================
+       MAIN · TODAS LAS SECCIONES 
+  ======================================================================== -->
+  <main class="cinema-scenes" id="cinemaScenes">
+
+       <!-- ============================================================
+         SECCIÓN 0 — ENTRADA ELEGANTE
+    ============================================================ -->
+    <section class="scene scene-entry" id="sceneEntry">
+      
+      <div class="entry-content">
+        
+        <!-- Texto principal -->
+        <div class="entry-text">
+          <span class="entry-badge">Baby Shower</span>
+          <h1 class="entry-title">
+            Erick <span class="ampersand">&</span> Bianca
+          </h1>
+          <div class="entry-divider"></div>
+          <p class="entry-subtitle">
+            Te invitamos a compartir<br>nuestra alegría
+          </p>
+        </div>
+        
+        <!-- Botón de entrada -->
+        <button class="entry-btn" id="entryBtn">
+          <span class="entry-btn-text">Entrar</span>
+          <span class="entry-btn-icon">→</span>
+        </button>
+        
+        <!-- Línea decorativa inferior -->
+        <div class="entry-footer">
+          <span class="entry-footer-line"></span>
+          <span class="entry-footer-icon">✦</span>
+          <span class="entry-footer-line"></span>
+        </div>
+        
+      </div>
+            
+    </section>
+
+    <!-- SECCIÓN 1 — MENSAJE EMOTIVO DE LOS NOVIOS -->
+    <section class="scene scene-hero" id="sceneHero">
+      <div class="hero-bg-layer"></div>
+      
+      <img id="florTopLeft" class="floating-flower flower-blur" alt="">
+      <img id="florBottomRight" class="floating-flower flower-blur reverse" alt="">
+      
+      <div class="hero-cinema-container">
+        <div class="hero-text-block">
+          <p class="hero-pre-title reveal-stagger" id="heroMensajePreTitulo">🐰 Pronto habrá una nueva sonrisa</p>
+          <h1 class="hero-names-cinema reveal-stagger" id="heroNombresNovios"></h1>
+          <p class="hero-verse-cinema reveal-stagger" id="heroMensajeEmotivo"></p>
+          
+          <div class="hero-foto-container reveal-stagger">
+            <img id="heroFotoNovios" class="hero-foto-novios" alt="Tomas y Alejandra">
+          </div>
+          
+          <div class="hero-frase-revelacion reveal-stagger" id="heroFraseRevelacion">✨ ¡Los esperamos para descubrir juntos si es niño o niña! ✨</div>
+        </div>
+      </div>
+      
+      <div class="scroll-hint">⌄</div>
+    </section>
+
+    <!-- SECCIÓN 2 — GALERÍA -->
+    <section class="scene-gallery">
+       <div class="gallery-cinema-wrapper">
+          <div class="photo-frame-cinema">
+             <img 
+                id="fotoGaleriaCinema"
+                class="zoom-slow-photo"
+                src=""
+                alt="Galería principal">
+          </div>
+       </div>
+    </section>
+
+    <!-- SECCIÓN 3 — FECHA + CONTADOR -->
+    <section class="scene scene-countdown">
+      <div class="calendar-elegant" id="calendarContainer"></div>
+      <button class="btnagregar" id="googleCalendarBtn">Agenda al Calendario</button>
+      
+      <div class="contador-hojas-wrapper">
+        <div class="contador-hojas-caja">
+          <div class="flip-card-hoja" id="flip-dias-hoja">
+            <div class="flip-number-hoja" id="daysCountTear">00</div>
+            <div class="hoja-cayendo" id="hoja-dias"></div>
+            <small>DÍAS</small>
+          </div>
+          <div class="flip-card-hoja" id="flip-horas-hoja">
+            <div class="flip-number-hoja" id="hoursCountTear">00</div>
+            <div class="hoja-cayendo" id="hoja-horas"></div>
+            <small>HORAS</small>
+          </div>
+          <div class="flip-card-hoja" id="flip-minutos-hoja">
+            <div class="flip-number-hoja" id="minutesCountTear">00</div>
+            <div class="hoja-cayendo" id="hoja-minutos"></div>
+            <small>MINUTOS</small>
+          </div>
+          <div class="flip-card-hoja" id="flip-segundos-hoja">
+            <div class="flip-number-hoja" id="secondsCountTear">00</div>
+            <div class="hoja-cayendo" id="hoja-segundos"></div>
+            <small>SEGUNDOS</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 4 — ITINERARIO -->
+    <section class="scene scene-timeline">
+      <h2 class="scene-title itinerary-title">Itinerario</h2>
+      <div id="timelineCinema" class="timeline-cinema"></div>
+    </section>
+
+    <!-- SECCIÓN 5 — UBICACIONES -->
+    <section class="scene scene-locations">
+      <h2 class="scene-title">Ubicaciones</h2>
+      <div class="locations-duo">
+        <div class="location-glass">
+          <h3>Ceremonia</h3>
+          <p class="loc-hour" id="ceremoniaHour"></p>
+          <h4 id="ceremoniaName"></h4>
+          <p class="loc-address" id="ceremoniaAddress"></p>
+          <div class="location-image-wrapper">
+            <img class="location-img" id="ceremoniaImagen" src="" alt="Iglesia">
+          </div>
+          <a id="ceremoniaMapLink" class="map-link-glass" target="_blank">Ver mapa ⟶</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN RECOMENDACIONES -->
+    <section class="seccion-recomendaciones" id="seccionRecomendaciones">
+      <div class="recomendaciones-container">
+        <h3 class="recomendaciones-titulo">
+          <span>📋</span> Recomendaciones <span>💒</span>
+        </h3>
+        <div class="recomendaciones-lista" id="recomendacionesLista"></div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 6 — FOTOS RASGADAS -->
+    <section class="scene scene-gifts">
+      <div class="gift-layered">
+        <img id="giftBackgroundImg" class="gift-background" src="" alt="Fondo">
+        <div class="gift-tear-top">
+
+        </div>
+        <div class="gift-tear-bottom">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 7 — CIERRE -->
+    <section class="scene scene-closing">
+      <div class="closing-glass">
+        <div class="sobre-container">
+          <img id="fotoCierreCinema" class="closing-photo-slow" alt="Novios atardecer">
+          
+          <div class="papel-flotante">
+            <h3 class="papel-titulo">✧ Confirmar asistencia ✧</h3>
+            <p class="papel-mensaje" id="papelMensaje"></p>
+            
+            <form id="formConfirmacion" class="form-confirmacion">
+              <input type="text" id="nombreInvitado" class="input-nombre" placeholder="Nombre y apellido" required>
+              
+              <div class="radio-group">
+                <label class="radio-option">
+                  <input type="radio" name="asistencia" value="si" required>
+                  <span>✨ Sí, asistiré con mucho gusto</span>
+                </label>
+                <label class="radio-option">
+                  <input type="radio" name="asistencia" value="no">
+                  <span>💔 No podré asistir</span>
+                </label>
+              </div>
+              
+              <div class="error-mensaje" id="errorMsg">Por favor completa todos los campos</div>
+              
+              <button type="submit" class="btn-enviar-papel">Enviar confirmación ✦</button>
+            </form>
+          </div>
+        </div>
+        
+        <a class="confirm-whatsapp-btn" id="confirmWhatsappBtn" target="_blank">Confirmar asistencia ✦</a>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
