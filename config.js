@@ -38,7 +38,7 @@ const CONFIG_BODA = {
   ceremonia: {
     hora: "16:00 hrs",
     lugar: "Salón de Eventos",
-    direccion: "Av. Reforma número 62 esquina calle 6 pte Candelaria Purificación Tepeaca, Puebla.",
+    direccion: "Calle Miguel Hidalgo y Costilla número 6148 Colonia el Patrimonio, Puebla , Puebla 72450 ",
     mapaUrl: "https://maps.app.goo.gl/GDNP7v1NCm3QHeQf6?g_st=ac",
     imagen: "./assets/salon1.jpg"
   },
